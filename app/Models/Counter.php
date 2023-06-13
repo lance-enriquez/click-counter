@@ -37,15 +37,6 @@ class Counter extends Model
     public $timestamps = true;
 
     /**
-     * The attributes that are mass assignable.
-     *
-     * @var array<int, string>
-     */
-    protected $fillable = [
-        'count',
-    ];
-
-    /**
      * The attributes that should be cast.
      *
      * @var array<string, string>
