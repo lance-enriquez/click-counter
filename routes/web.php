@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/count', 'ClickController@getClickCount');
+Route::get('/click', 'ClickController@saveClick');
