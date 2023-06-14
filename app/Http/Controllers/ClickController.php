@@ -33,17 +33,7 @@ class ClickController
     }
 
     /**
-     * Returns home page.
-     * 
-     * @return view
-     */
-    public function showPage()
-    {
-        return view('welcome');
-    }
-
-    /**
-     * Returns home page.
+     * Handles getting clicks to the page.
      * 
      * @return JsonResponse
      */
@@ -53,7 +43,7 @@ class ClickController
     }
 
     /**
-     * Returns home page.
+     * Handles saving clicks to the page.
      * 
      * @return JsonResponse
      */
