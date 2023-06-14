@@ -15,7 +15,7 @@ use App\Libraries\DateUtil;
 class ClickService
 {
     /**
-     * Returns count of clicks based on parameter.
+     * Returns count of clicks based on datetime parameter.
      * 
      * @return int
      */
