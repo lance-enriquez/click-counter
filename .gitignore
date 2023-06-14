@@ -27,3 +27,6 @@ composer.lock
 package-lock.json
 
 .idea/
+
+public/css/
+public/js/
